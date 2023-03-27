@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/Angelillo15/MinecraftPurpleTheme/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/KochengGamnteng/pterodatcly/main/repair.sh)
 }
 
 restoreBackUp(){
@@ -66,10 +66,10 @@ echo ""
 echo "Discord: https://discord.angelillo15.es/"
 echo "Website: https://angelillo15.es/"
 echo ""
-echo "[1] Install theme"
-echo "[2] Restore backup"
-echo "[3] Repair panel (use if you have an error in the theme installation)"
-echo "[4] Exit"
+echo "[1] Install Tema Bang"
+echo "[2] Restore backup Nya bang"
+echo "[3] Repair panel (use if you have an error in the theme installation kalo eror)"
+echo "[4] Muleh / balik"
 
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
