@@ -12,9 +12,9 @@ installTheme(){
     tar -cvf MinecraftPurpleThemebackup.tar.gz pterodactyl
     echo "Installing theme..."
     cd /var/www/pterodactyl
-    rm -r MinecraftPurpleTheme
-    git clone https://github.com/Angelillo15/MinecraftPurpleTheme.git
-    cd MinecraftPurpleTheme
+    rm -r pterodatcly
+    git clone https://github.com/KochengGamnteng/pterodatcly.git
+    cd pterodatcly
     rm /var/www/pterodactyl/resources/scripts/MinecraftPurpleTheme.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
